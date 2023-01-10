@@ -55,7 +55,7 @@ header {
 .cart {
     position: fixed;
     top: 0;
-    right: -100%;
+    right: 0%;
     width: 360px;
     min-height: 100vh;
     padding: 20px;
@@ -63,7 +63,7 @@ header {
     box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
     transition: 0.3s;
 }
-.cart-active {
+.cart.active {
     right: 0;
 }
 .cart-title {
